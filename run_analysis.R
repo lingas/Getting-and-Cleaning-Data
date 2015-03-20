@@ -9,6 +9,7 @@
 
 library(plyr);
 
+# Change this to set your working directory to the folder containing the UCI HAR Dataset folder
 setwd("C:\\Users\\Class 3")
 
 # Read all relevant files
