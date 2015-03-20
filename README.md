@@ -5,9 +5,12 @@ This repo contains the following file :
   1. CODEBOOK.md    : Contains information of the dataset and the procedure taken to cleanup the data
   2. run_analysis.R : The script to excuted to clean the data. This script output a text file "tidied_data.txt"
   3. tided_data.txt : Output of the data cleanup process. This file can be reproduce by excuting run_analysis.R
-  4. 
+  
 # Changing the dataset path directory
 In line 12 of run_analysis.R . Change the directory to the folder which contains the folder UCI HAR Dataset
+
+Current default 
+  > setwd("C:\\\Users\\\Class 3")
 
 UCI HAR Dataset folder is obtained by unzipping the file downloaded from 
   > https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
